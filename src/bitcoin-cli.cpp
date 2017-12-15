@@ -30,11 +30,11 @@ static bool AppInitRPC(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("--help"))
     {
         // First part of help message is specific to RPC client
-        std::string strUsage = _("Peercoin RPC client version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("PedrosPesos RPC client version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  peercoin-cli [options] <command> [params]  " + _("Send command to Peercoin server") + "\n" +
-              "  peercoin-cli [options] help                " + _("List commands") + "\n" +
-              "  peercoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
+              "  PedrosPesos-cli [options] <command> [params]  " + _("Send command to PedrosPesos server") + "\n" +
+              "  PedrosPesos-cli [options] help                " + _("List commands") + "\n" +
+              "  PedrosPesos-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
         strUsage += "\n" + HelpMessageCli(true);
 

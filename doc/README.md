@@ -1,6 +1,6 @@
-Peercoin 0.6.0 BETA
+PedrosPesos 0.6.0 BETA
 
-Copyright (c) 2011-2017 Peercoin Developers
+Copyright (c) 2011-2017 PedrosPesos Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -10,7 +10,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Peercoin is a free open source project derived from Bitcoin, with
+PedrosPesos is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient crypto-currency.
 Built on the foundation of Bitcoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -19,34 +19,34 @@ help further advance the field of crypto-currency.
 Setup
 -----
 Unpack the files into a directory and run:
- bin/32/peercoin-qt (GUI, 32-bit)
- bin/32/peercoind (headless, 32-bit)
- bin/64/peercoin-qt (GUI, 64-bit)
- bin/64/peercoind (headless, 64-bit)
+ bin/32/PedrosPesos-qt (GUI, 32-bit)
+ bin/32/PedrosPesosd (headless, 32-bit)
+ bin/64/PedrosPesos-qt (GUI, 64-bit)
+ bin/64/PedrosPesosd (headless, 64-bit)
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 9901 (TCP) to your computer so you can receive
-incoming connections.  Peercoin works without incoming connections,
-but allowing incoming connections helps the Peercoin network.
+incoming connections.  PedrosPesos works without incoming connections,
+but allowing incoming connections helps the PedrosPesos network.
 
 
 Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.5, first backup wallet
-peercoind backupwallet <destination_backup_file>
-Then shutdown peercoind by
-peercoind stop
+PedrosPesosd backupwallet <destination_backup_file>
+Then shutdown PedrosPesosd by
+PedrosPesosd stop
 Uninstall v0.5 client, download and install v0.6 client.
 Remove all files and subdirectory in your wallet directory EXCEPT FOR
-wallet.dat (wallet file) and peercoin.conf (configuration file).
-Start up the new peercoind (0.6).
+wallet.dat (wallet file) and PedrosPesos.conf (configuration file).
+Start up the new PedrosPesosd (0.6).
 For this upgrade blockchain re-download is required.
 
 
 See the documentation/wiki at github:
-  http://github.com/peercoin/peercoin
+  http://github.com/PedrosPesos/PedrosPesos
 for help and more information.
 
 

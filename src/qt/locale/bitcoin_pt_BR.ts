@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Peercoin</source>
-        <translation>Sobre o Peercoin</translation>
+        <source>About PedrosPesos</source>
+        <translation>Sobre o PedrosPesos</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Peercoin&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;Peercoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;PedrosPesos&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;PedrosPesos&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The Peercoin developers</source>
-        <translation>Desenvolvedores do Peercoin</translation>
+        <source>The PedrosPesos developers</source>
+        <translation>Desenvolvedores do PedrosPesos</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Peercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços Peercoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>These are your PedrosPesos addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estes são os seus endereços PedrosPesos para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Peercoin address</source>
-        <translation>Assine uma mensagem para provar que você é dono de um endereço Peercoin</translation>
+        <source>Sign a message to prove you own a PedrosPesos address</source>
+        <translation>Assine uma mensagem para provar que você é dono de um endereço PedrosPesos</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Peercoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Peercoin específico.</translation>
+        <source>Verify a message to ensure it was signed with a specified PedrosPesos address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço PedrosPesos específico.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Peercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Peercoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>These are your PedrosPesos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços PedrosPesos para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus PEERCOINS!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PedrosPesosS&lt;/b&gt;!</source>
+        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus PedrosPesosS!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Peercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>O Peercoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas peercoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+        <source>PedrosPesos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PedrosPesoss from being stolen by malware infecting your computer.</source>
+        <translation>O PedrosPesos irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas PedrosPesoss de serem roubadas por malwares que tenham infectado o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Peercoin</source>
-        <translation>Mostrar informação sobre Peercoin</translation>
+        <source>Show information about PedrosPesos</source>
+        <translation>Mostrar informação sobre PedrosPesos</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Peercoin address</source>
-        <translation>Enviar moedas para um endereço peercoin</translation>
+        <source>Send coins to a PedrosPesos address</source>
+        <translation>Enviar moedas para um endereço PedrosPesos</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Peercoin</source>
-        <translation>Modificar opções de configuração para peercoin</translation>
+        <source>Modify configuration options for PedrosPesos</source>
+        <translation>Modificar opções de configuração para PedrosPesos</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Peercoin</source>
-        <translation>Peercoin</translation>
+        <source>PedrosPesos</source>
+        <translation>PedrosPesos</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Peercoin</source>
-        <translation>&amp;Sobre o Peercoin</translation>
+        <source>&amp;About PedrosPesos</source>
+        <translation>&amp;Sobre o PedrosPesos</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Peercoin addresses to prove you own them</source>
-        <translation>Assine mensagems com seus endereços Peercoin para provar que você é dono deles</translation>
+        <source>Sign messages with your PedrosPesos addresses to prove you own them</source>
+        <translation>Assine mensagems com seus endereços PedrosPesos para provar que você é dono deles</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Peercoin addresses</source>
-        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Peercoin específicos</translation>
+        <source>Verify messages to ensure they were signed with specified PedrosPesos addresses</source>
+        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços PedrosPesos específicos</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>Peercoin client</source>
-        <translation>Cliente Peercoin</translation>
+        <source>PedrosPesos client</source>
+        <translation>Cliente PedrosPesos</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Peercoin network</source>
-        <translation><numerusform>%n conexão ativa na rede Peercoin</numerusform><numerusform>%n conexões ativas na rede Peercoin</numerusform></translation>
+        <source>%n active connection(s) to PedrosPesos network</source>
+        <translation><numerusform>%n conexão ativa na rede PedrosPesos</numerusform><numerusform>%n conexões ativas na rede PedrosPesos</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Endereço: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters.</source>
-        <translation>URI não pode ser decodificado! Isso pode ter sido causado por um endereço Peercoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid PedrosPesos address or malformed URI parameters.</source>
+        <translation>URI não pode ser decodificado! Isso pode ter sido causado por um endereço PedrosPesos inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Peercoin can no longer continue safely and will quit.</source>
-        <translation>Um erro fatal ocorreu. Peercoin não pode continuar em segurança e irá fechar.</translation>
+        <source>A fatal error occurred. PedrosPesos can no longer continue safely and will quit.</source>
+        <translation>Um erro fatal ocorreu. PedrosPesos não pode continuar em segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation>O endereço digitado &quot;%1&quot; não é um endereço Peercoin válido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PedrosPesos address.</source>
+        <translation>O endereço digitado &quot;%1&quot; não é um endereço PedrosPesos válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Endereço: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Peercoin-Qt</source>
-        <translation>Peercoin-Qt</translation>
+        <source>PedrosPesos-Qt</source>
+        <translation>PedrosPesos-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -808,7 +808,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PP fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -818,8 +818,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Peercoin after logging in to the system.</source>
-        <translation>Iniciar Peercoin automaticamente após se logar no sistema.</translation>
+        <source>Automatically start PedrosPesos after logging in to the system.</source>
+        <translation>Iniciar PedrosPesos automaticamente após se logar no sistema.</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -828,8 +828,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Peercoin on system login</source>
-        <translation>Iniciar Peercoin no login do sistema</translation>
+        <source>&amp;Start PedrosPesos on system login</source>
+        <translation>Iniciar PedrosPesos no login do sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -848,8 +848,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Peercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir as portas do cliente Peercoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+        <source>Automatically open the PedrosPesos client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir as portas do cliente PedrosPesos automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -858,8 +858,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Peercoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar à rede Peercoin através de um proxy SOCKS (ex. quando estiver usando através do Tor)</translation>
+        <source>Connect to the PedrosPesos network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectar à rede PedrosPesos através de um proxy SOCKS (ex. quando estiver usando através do Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -933,8 +933,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Peercoin.</source>
-        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Peercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PedrosPesos.</source>
+        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o PedrosPesos.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,12 +944,12 @@ Endereço: %4</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar peercoins.</translation>
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar PedrosPesoss.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Peercoin addresses in the transaction list or not.</source>
-        <translation>Mostrar ou não endereços Peercoin na lista de transações.</translation>
+        <source>Whether to show PedrosPesos addresses in the transaction list or not.</source>
+        <translation>Mostrar ou não endereços PedrosPesos na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1000,8 +1000,8 @@ Endereço: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Peercoin.</source>
-        <translation>Esta configuração surtirá efeito após reinicializar o aplicativo Peercoin</translation>
+        <source>This setting will take effect after restarting PedrosPesos.</source>
+        <translation>Esta configuração surtirá efeito após reinicializar o aplicativo PedrosPesos</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1019,8 +1019,8 @@ Endereço: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Peercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Peercoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PedrosPesos network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede PedrosPesos depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1073,8 +1073,8 @@ Endereço: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar peercoin: manipulador clique-para-pagar</translation>
+        <source>Cannot start PedrosPesos: click-to-pay handler</source>
+        <translation>Não foi possível iniciar PedrosPesos: manipulador clique-para-pagar</translation>
     </message>
 </context>
 <context>
@@ -1223,8 +1223,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Peercoin-Qt help message to get a list with possible Peercoin command-line options.</source>
-        <translation>Mostrar mensagem de ajuda do Peercoin-Qt para obter uma lista com possíveis opções da linha de comando do Peercoin.</translation>
+        <source>Show the PedrosPesos-Qt help message to get a list with possible PedrosPesos command-line options.</source>
+        <translation>Mostrar mensagem de ajuda do PedrosPesos-Qt para obter uma lista com possíveis opções da linha de comando do PedrosPesos.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1243,13 +1243,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Peercoin - Debug window</source>
-        <translation>Peercoin - Janela de Depuração</translation>
+        <source>PedrosPesos - Debug window</source>
+        <translation>PedrosPesos - Janela de Depuração</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Peercoin Core</source>
-        <translation>Núcleo Peercoin</translation>
+        <source>PedrosPesos Core</source>
+        <translation>Núcleo PedrosPesos</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1258,8 +1258,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Peercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o arquivo de log de depuração do Peercoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
+        <source>Open the PedrosPesos debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o arquivo de log de depuração do PedrosPesos do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1268,8 +1268,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Peercoin RPC console.</source>
-        <translation>Bem-vindo ao console Peercoin RPC.</translation>
+        <source>Welcome to the PedrosPesos RPC console.</source>
+        <translation>Bem-vindo ao console PedrosPesos RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1389,7 +1389,7 @@ Endereço: %4</translation>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos peercoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns peercoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos PedrosPesoss de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns PedrosPesoss foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
     </message>
 </context>
 <context>
@@ -1452,8 +1452,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Digite um endereço Peercoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PedrosPesos address</source>
+        <translation>Digite um endereço PedrosPesos (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1517,8 +1517,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Peercoin address</source>
-        <translation>Assinar mensagem para provar que você é dono deste endereço Peercoin</translation>
+        <source>Sign the message to prove you own this PedrosPesos address</source>
+        <translation>Assinar mensagem para provar que você é dono deste endereço PedrosPesos</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1553,8 +1553,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Peercoin específico.</translation>
+        <source>Verify the message to ensure it was signed with the specified PedrosPesos address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço PedrosPesos específico.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1569,8 +1569,8 @@ Endereço: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Digite um endereço Peercoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PedrosPesos address</source>
+        <translation>Digite um endereço PedrosPesos (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1579,8 +1579,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Peercoin signature</source>
-        <translation>Entre com a assinatura Peercoin</translation>
+        <source>Enter PedrosPesos signature</source>
+        <translation>Entre com a assinatura PedrosPesos</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1653,8 +1653,8 @@ Endereço: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Peercoin developers</source>
-        <translation>Desenvolvedores do Peercoin</translation>
+        <source>The PedrosPesos developers</source>
+        <translation>Desenvolvedores do PedrosPesos</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1788,7 +1788,7 @@ Endereço: %4</translation>
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Peercoins gerados precisam maturar por 120 blocos antes de serem gastos. Quando você gera este bloco, ele é difundido na rede para ser adicionado ao blockchain. Se ele falhar ao ser acrescentado no blockchain, seu estado mudará para &quot;não aceito&quot; e não poderá ser gasto. Isso pode ocasionamente acontecer se outro nó gerou um bloco poucos segundos antes do seu.</translation>
+        <translation>PedrosPesoss gerados precisam maturar por 120 blocos antes de serem gastos. Quando você gera este bloco, ele é difundido na rede para ser adicionado ao blockchain. Se ele falhar ao ser acrescentado no blockchain, seu estado mudará para &quot;não aceito&quot; e não poderá ser gasto. Isso pode ocasionamente acontecer se outro nó gerou um bloco poucos segundos antes do seu.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2191,8 +2191,8 @@ Endereço: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Peercoin version</source>
-        <translation>Versão do Peercoin</translation>
+        <source>PedrosPesos version</source>
+        <translation>Versão do PedrosPesos</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2201,8 +2201,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Enviar comando para -server ou peercoind</translation>
+        <source>Send command to -server or PedrosPesosd</source>
+        <translation>Enviar comando para -server ou PedrosPesosd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2221,13 +2221,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Especifique um arquivo de configurações (padrão: peercoin.conf)</translation>
+        <source>Specify configuration file (default: PedrosPesos.conf)</source>
+        <translation>Especifique um arquivo de configurações (padrão: PedrosPesos.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Especifique um arquivo de pid (padrão: peercoind.pid)</translation>
+        <source>Specify pid file (default: PedrosPesosd.pid)</source>
+        <translation>Especifique um arquivo de pid (padrão: PedrosPesosd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2304,24 +2304,24 @@ Endereço: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=PedrosPesosrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;PedrosPesos Alert&quot; admin@foo.com
 </source>
         <translation>%s, você deve especificar uma senha rpcpassword no arquivo de configuração:⏎
 %s⏎
 É recomendado que você use a seguinte senha aleatória:⏎
-rpcuser=peercoinrpc⏎
+rpcuser=PedrosPesosrpc⏎
 rpcpassword=%s⏎
 (você não precisa lembrar esta senha)⏎
 O nome de usuário e a senha NÃO PODEM ser os mesmos.⏎
 Se o arquivo não existir, crie um com permissão de leitura apenas para o dono.⏎
 É recomendado também definir um alertnotify para que você seja notificado de problemas;⏎
-por exemplo: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo.com⏎
+por exemplo: alertnotify=echo %%s | mail -s &quot;PedrosPesos Alert&quot; admin@foo.com⏎
 </translation>
     </message>
     <message>
@@ -2336,13 +2336,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Peercoin is probably already running.</source>
-        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O Peercoin provavelmente já está rodando.</translation>
+        <source>Cannot obtain a lock on data directory %s. PedrosPesos is probably already running.</source>
+        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O PedrosPesos provavelmente já está rodando.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos peercoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns peercoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos PedrosPesoss de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns PedrosPesoss foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2381,8 +2381,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Peercoin will not work properly.</source>
-        <translation>Cuidado: Por favor, verifique que a data e hora do seu computador estão corretas! If o seu relógio estiver errado, o Peercoin não irá funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PedrosPesos will not work properly.</source>
+        <translation>Cuidado: Por favor, verifique que a data e hora do seu computador estão corretas! If o seu relógio estiver errado, o PedrosPesos não irá funcionar corretamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2632,7 +2632,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (veja a Wiki do Peercoin para instruções de configuração SSL)</translation>
+        <translation>Opções SSL: (veja a Wiki do PedrosPesos para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2821,13 +2821,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peercoin</source>
-        <translation>Erro ao carregar wallet.dat: Carteira requer uma versão mais nova do Peercoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PedrosPesos</source>
+        <translation>Erro ao carregar wallet.dat: Carteira requer uma versão mais nova do PedrosPesos</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Peercoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o Peercoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart PedrosPesos to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o PedrosPesos para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2886,8 +2886,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Peercoin is probably already running.</source>
-        <translation>Impossível vincular a %s neste computador. O Peercoin provavelmente já está rodando.</translation>
+        <source>Unable to bind to %s on this computer. PedrosPesos is probably already running.</source>
+        <translation>Impossível vincular a %s neste computador. O PedrosPesos provavelmente já está rodando.</translation>
     </message>
     <message>
         <location line="+64"/>

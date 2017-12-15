@@ -1,9 +1,9 @@
-Building Peercoin
+Building PedrosPesos
 
-See doc/readme-qt.rst for instructions on building Peercoin-Qt,
+See doc/readme-qt.rst for instructions on building PedrosPesos-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Peercoin.
+implementation of PedrosPesos.
 
-See doc/build-*.txt for instructions on building peercoind,
+See doc/build-*.txt for instructions on building PedrosPesosd,
 the intended-for-services, no-graphical-interface, reference
-implementation of Peercoin.
+implementation of PedrosPesos.

@@ -11,12 +11,12 @@ bin
 *.exe
 src/*.exe
 src/*/*.exe
-src/peercoin
-src/peercoin-cli
-src/peercoind
-src/test_peercoin
-src/test/test_peercoin
-src/qt/test/test_peercoin-qt
+src/PedrosPesos
+src/PedrosPesos-cli
+src/PedrosPesosd
+src/test_PedrosPesos
+src/test/test_PedrosPesos
+src/qt/test/test_PedrosPesos-qt
 
 # autoreconf
 Makefile.in
@@ -69,8 +69,8 @@ src/qt/res/.dirstamp
 *.orig
 *.o
 *.patch
-.ppcoin
-.peercoin
+.PPoin
+.PedrosPesos
 *.a
 *.pb.cc
 *.pb.h
@@ -82,17 +82,17 @@ src/qt/res/.dirstamp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-ppcoin-qt
-peercoin-qt
-PPCoin-Qt.app
-Peercoin-Qt.app
+PPoin-qt
+PedrosPesos-qt
+PPoin-Qt.app
+PedrosPesos-Qt.app
 .qmake.stash
-peercoin-qt_plugin_import.cpp
+PedrosPesos-qt_plugin_import.cpp
 
 # Unit-tests
 Makefile.test
-ppcoin-qt_test
-peercoin-qt_test
+PPoin-qt_test
+PedrosPesos-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -123,4 +123,4 @@ qa/pull-tester/run-bitcoind-for-test.sh
 qa/pull-tester/build-tests.sh
 
 !src/leveldb-*/Makefile
-peercoin-qt
+PedrosPesos-qt

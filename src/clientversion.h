@@ -23,11 +23,11 @@
 
 #endif //HAVE_CONFIG_H
 
-// ppcoin version - intended for display purpose ONLY
-#define PEERCOIN_VERSION_MAJOR       0
-#define PEERCOIN_VERSION_MINOR       6
-#define PEERCOIN_VERSION_REVISION    2
-#define PEERCOIN_VERSION_BUILD       0
+// PPoin version - intended for display purpose ONLY
+#define PedrosPesos_VERSION_MAJOR       0
+#define PedrosPesos_VERSION_MINOR       6
+#define PedrosPesos_VERSION_REVISION    2
+#define PedrosPesos_VERSION_BUILD       0
 
 // Copyright year (2009-this)
 // Todo: update this when changing our copyright comments in the source

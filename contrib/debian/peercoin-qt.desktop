@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Peercoin
-Comment=Core wallet for Peercoin P2P Cryptocurrency
-Comment[de]=Offizieller Client für die Kryptowährung Peercoin
-Exec=/usr/bin/peercoin-qt %u
+Name=PedrosPesos
+Comment=Core wallet for PedrosPesos P2P Cryptocurrency
+Comment[de]=Offizieller Client für die Kryptowährung PedrosPesos
+Exec=/usr/bin/PedrosPesos-qt %u
 Terminal=false
 Type=Application
-Icon=/usr/share/pixmaps/peercoin.png
-MimeType=x-scheme-handler/peercoin;
+Icon=/usr/share/pixmaps/PedrosPesos.png
+MimeType=x-scheme-handler/PedrosPesos;
 Categories=Application;Network;

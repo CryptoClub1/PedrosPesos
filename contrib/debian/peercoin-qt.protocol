@@ -1,6 +1,6 @@
 [Protocol]
-exec=peercoin-qt '%u'
-protocol=peercoin
+exec=PedrosPesos-qt '%u'
+protocol=PedrosPesos
 input=none
 output=none
 helper=true

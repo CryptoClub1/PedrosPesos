@@ -26,22 +26,22 @@ $(LIBLEVELDB) $(LIBMEMENV):
 endif
 
 noinst_LIBRARIES = \
-  libpeercoin_server.a \
-  libpeercoin_common.a \
-  libpeercoin_cli.a
+  libPedrosPesos_server.a \
+  libPedrosPesos_common.a \
+  libPedrosPesos_cli.a
 if ENABLE_WALLET
-noinst_LIBRARIES += libpeercoin_wallet.a
+noinst_LIBRARIES += libPedrosPesos_wallet.a
 endif
 
 bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += peercoind
+  bin_PROGRAMS += PedrosPesosd
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += peercoin-cli
+  bin_PROGRAMS += PedrosPesos-cli
 endif
 
 .PHONY: FORCE
@@ -104,7 +104,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 version.o: obj/build.h
 
-libpeercoin_server_a_SOURCES = \
+libPedrosPesos_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
   rpcserver.cpp \
@@ -127,7 +127,7 @@ libpeercoin_server_a_SOURCES = \
   $(JSON_H) \
   $(BITCOIN_CORE_H)
 
-libpeercoin_wallet_a_SOURCES = \
+libPedrosPesos_wallet_a_SOURCES = \
   db.cpp \
   rpcdump.cpp \
   rpcmining.cpp \
@@ -139,7 +139,7 @@ libpeercoin_wallet_a_SOURCES = \
   rpcwallet.cpp \
   $(BITCOIN_CORE_H)
 
-libpeercoin_common_a_SOURCES = \
+libPedrosPesos_common_a_SOURCES = \
   hash.cpp \
   key.cpp \
   netbase.cpp \
@@ -150,41 +150,41 @@ libpeercoin_common_a_SOURCES = \
   version.cpp \
   $(BITCOIN_CORE_H)
 
-libpeercoin_cli_a_SOURCES = \
+libPedrosPesos_cli_a_SOURCES = \
   rpcclient.cpp \
   $(BITCOIN_CORE_H)
 
-nodist_libpeercoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
+nodist_libPedrosPesos_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# peercoind binary #
-peercoind_LDADD = \
-  libpeercoin_server.a \
-  libpeercoin_cli.a \
-  libpeercoin_common.a \
+# PedrosPesosd binary #
+PedrosPesosd_LDADD = \
+  libPedrosPesos_server.a \
+  libPedrosPesos_cli.a \
+  libPedrosPesos_common.a \
   $(LIBLEVELDB) \
   $(LIBMEMENV) \
   $(BOOST_LIBS)
 if ENABLE_WALLET
-peercoind_LDADD += libpeercoin_wallet.a
+PedrosPesosd_LDADD += libPedrosPesos_wallet.a
 endif
-peercoind_SOURCES = bitcoind.cpp
-peercoind_LDFLAGS = $(AM_LDFLAGS)
+PedrosPesosd_SOURCES = bitcoind.cpp
+PedrosPesosd_LDFLAGS = $(AM_LDFLAGS)
 
 if TARGET_WINDOWS
-peercoind_SOURCES += bitcoind-res.rc
+PedrosPesosd_SOURCES += bitcoind-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-peercoind_LDADD += $(BDB_LIBS)
+PedrosPesosd_LDADD += $(BDB_LIBS)
 
 # bitcoin-cli binary #
-peercoin_cli_LDADD = libpeercoin_cli.a libpeercoin_common.a $(BOOST_LIBS)
-peercoin_cli_SOURCES = bitcoin-cli.cpp
-peercoin_cli_LDFLAGS = $(AM_LDFLAGS)
+PedrosPesos_cli_LDADD = libPedrosPesos_cli.a libPedrosPesos_common.a $(BOOST_LIBS)
+PedrosPesos_cli_SOURCES = bitcoin-cli.cpp
+PedrosPesos_cli_LDFLAGS = $(AM_LDFLAGS)
 
 if TARGET_WINDOWS
-peercoin_cli_SOURCES += bitcoin-cli-res.rc
+PedrosPesos_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
 CLEANFILES = leveldb/libleveldb.a leveldb/libmemenv.a *.gcda *.gcno
@@ -205,11 +205,11 @@ clean-local:
 	$(OBJC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \
 	  $(CPPFLAGS) $(AM_CXXFLAGS) $(QT_INCLUDES) $(CXXFLAGS)  -c -o $@ $<
 
-LIBPEERCOIN_SERVER=libpeercoin_server.a
-LIBPEERCOIN_WALLET=libpeercoin_wallet.a
-LIBPEERCOIN_COMMON=libpeercoin_common.a
-LIBPEERCOIN_CLI=libpeercoin_cli.a
-LIBPEERCOINQT=qt/libpeercoinqt.a
+LIBPedrosPesos_SERVER=libPedrosPesos_server.a
+LIBPedrosPesos_WALLET=libPedrosPesos_wallet.a
+LIBPedrosPesos_COMMON=libPedrosPesos_common.a
+LIBPedrosPesos_CLI=libPedrosPesos_cli.a
+LIBPedrosPesosQT=qt/libPedrosPesosqt.a
 
 if ENABLE_TESTS
 include Makefile.test.include

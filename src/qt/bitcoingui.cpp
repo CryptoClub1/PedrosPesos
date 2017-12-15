@@ -1,9 +1,9 @@
 /*
- * Qt4 ppcoin GUI.
+ * Qt4 PPoin GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin developers 2011-2012
- * The Peercoin developers 2011-2017
+ * The PedrosPesos developers 2011-2017
  */
 
 #include <QApplication>
@@ -73,7 +73,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     prevBlocks(0)
 {
     restoreWindowGeometry();
-    setWindowTitle(tr("Peercoin") + " - " + tr("Wallet"));
+    setWindowTitle(tr("PedrosPesos") + " - " + tr("Wallet"));
     
     QFontDatabase::addApplicationFont(":/fonts/weblysleek");
     QFile styleFile(":/themes/default");
@@ -82,8 +82,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     this->setStyleSheet(styleSheet);
 
 #ifndef Q_OS_MAC
-    QApplication::setWindowIcon(QIcon(":icons/peercoin"));
-    setWindowIcon(QIcon(":icons/peercoin"));
+    QApplication::setWindowIcon(QIcon(":icons/PedrosPesos"));
+    setWindowIcon(QIcon(":icons/PedrosPesos"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -182,7 +182,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a Peercoin address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a PedrosPesos address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
@@ -233,16 +233,16 @@ void BitcoinGUI::createActions()
     quitAction->setStatusTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/peercoin"), tr("&About Peercoin"), this);
-    aboutAction->setStatusTip(tr("Show information about Peercoin"));
+    aboutAction = new QAction(QIcon(":/icons/PedrosPesos"), tr("&About PedrosPesos"), this);
+    aboutAction->setStatusTip(tr("Show information about PedrosPesos"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setStatusTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setStatusTip(tr("Modify configuration options for Peercoin"));
+    optionsAction->setStatusTip(tr("Modify configuration options for PedrosPesos"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/peercoin"), tr("&Show / Hide"), this);
+    toggleHideAction = new QAction(QIcon(":/icons/PedrosPesos"), tr("&Show / Hide"), this);
     toggleHideAction->setStatusTip(tr("Show or hide the main Window"));
 
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -256,18 +256,18 @@ void BitcoinGUI::createActions()
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(QIcon(":/icons/sign"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Peercoin addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your PedrosPesos addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/verify"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Peercoin addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified PedrosPesos addresses"));
 
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open debugging and diagnostic console"));
 
-    openChatroomAction = new QAction(QIcon(":/icons/peercoin"), tr("&Chatroom"), this);
-    openChatroomAction->setStatusTip(tr("Open https://peercoin.chat in a web browser."));
+    openChatroomAction = new QAction(QIcon(":/icons/PedrosPesos"), tr("&Chatroom"), this);
+    openChatroomAction->setStatusTip(tr("Open https://PedrosPesos.chat in a web browser."));
 
-    openForumAction = new QAction(QIcon(":/icons/peercoin"), tr("&Forum"), this);
-    openForumAction->setStatusTip(tr("Open https://talk.peercoin.net in a web browser."));
+    openForumAction = new QAction(QIcon(":/icons/PedrosPesos"), tr("&Forum"), this);
+    openForumAction->setStatusTip(tr("Open https://talk.PedrosPesos.net in a web browser."));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
@@ -345,10 +345,10 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
         {
             setWindowTitle(windowTitle() + QString(" ") + tr("[testnet]"));
 #ifndef Q_OS_MAC
-            QApplication::setWindowIcon(QIcon(":icons/peercoin_testnet"));
-            setWindowIcon(QIcon(":icons/peercoin_testnet"));
+            QApplication::setWindowIcon(QIcon(":icons/PedrosPesos_testnet"));
+            setWindowIcon(QIcon(":icons/PedrosPesos_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/peercoin_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/PedrosPesos_testnet"));
 #endif
             if(trayIcon)
             {
@@ -402,7 +402,7 @@ void BitcoinGUI::createTrayIcon()
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
 
-    trayIcon->setToolTip(tr("Peercoin client"));
+    trayIcon->setToolTip(tr("PedrosPesos client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     trayIcon->show();
 #endif
@@ -537,11 +537,11 @@ void BitcoinGUI::gotoVerifyMessageTab(QString addr)
 }
 
 void BitcoinGUI::openChatroom() {
-    QDesktopServices::openUrl(QUrl("https://peercoin.chat"));
+    QDesktopServices::openUrl(QUrl("https://PedrosPesos.chat"));
 }
 
 void BitcoinGUI::openForum() {
-    QDesktopServices::openUrl(QUrl("https://talk.peercoin.net"));
+    QDesktopServices::openUrl(QUrl("https://talk.PedrosPesos.net"));
 }
 
 void BitcoinGUI::setNumConnections(int count)
@@ -556,7 +556,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Peercoin network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to PedrosPesos network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
@@ -655,7 +655,7 @@ void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
 
 void BitcoinGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("Peercoin"); // default title
+    QString strTitle = tr("PedrosPesos"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -786,7 +786,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             walletFrame->gotoSendCoinsPage();
         else
-            message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters."),
+            message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid PedrosPesos address or malformed URI parameters."),
                       CClientUIInterface::ICON_WARNING);
     }
 
@@ -809,7 +809,7 @@ void BitcoinGUI::handleURI(QString strURI)
 {
     // URI has to be valid
     if (!walletFrame->handleURI(strURI))
-        message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters."),
+        message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid PedrosPesos address or malformed URI parameters."),
                   CClientUIInterface::ICON_WARNING);
 }
 

@@ -1,6 +1,6 @@
 /*
  * W.J. van der Laan 2011-2012
- * The Peercoin developers 2013-2017
+ * The PedrosPesos developers 2013-2017
  */
 
 #include <QApplication>
@@ -111,7 +111,7 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Peercoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. PedrosPesos can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -155,12 +155,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    QApplication::setOrganizationName("Peercoin");
-    QApplication::setOrganizationDomain("peercoin.net");
+    QApplication::setOrganizationName("PedrosPesos");
+    QApplication::setOrganizationDomain("PedrosPesos.net");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        QApplication::setApplicationName("Peercoin-Testnet");
+        QApplication::setApplicationName("PedrosPesos-Testnet");
     else
-        QApplication::setApplicationName("Peercoin");
+        QApplication::setApplicationName("PedrosPesos");
 
     // ... then GUI settings:
     OptionsModel optionsModel;

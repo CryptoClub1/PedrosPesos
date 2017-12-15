@@ -3,7 +3,7 @@
 set -e
 
 cd $(dirname $0)/base
-docker build -t peercoin/base .
+docker build -t PedrosPesos/base .
 
 cd ../base_devel
-docker build -t peercoin/devel .
+docker build -t PedrosPesos/devel .

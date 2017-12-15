@@ -1,4 +1,4 @@
-#define BOOST_TEST_MODULE Peercoin Test Suite
+#define BOOST_TEST_MODULE PedrosPesos Test Suite
 #include <boost/test/unit_test.hpp>
 #include <boost/filesystem.hpp>
 
