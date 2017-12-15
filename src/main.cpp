@@ -3268,7 +3268,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 4a5e1e
 
         // Genesis block
-        const char* pszTimestamp = "Matonis 07-AUG-2012 Parallel Currencies And The Roadmap To Monetary Freedom";
+        const char* pszTimestamp = "Harpaz 15-DEC-2017 Corporate Tax Pros Already Prepping for Tax Reform";
         CTransaction txNew;
         txNew.nTime = 1345083810;
         txNew.vin.resize(1);
@@ -3280,9 +3280,9 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1345084287;
+        block.nTime    = 1513373376;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 2179302059u;
+        block.nNonce   = 0;
 
         if (fTestNet)
         {
@@ -3307,7 +3307,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x3c2d8f85fab4d17aac558cc648a1a58acff0de6deb890c29985690052c5993c2"));
+        assert(block.hashMerkleRoot == uint256("0x0"));
         block.print();
         assert(hash == hashGenesisBlock);
         // PPoin: check genesis block
