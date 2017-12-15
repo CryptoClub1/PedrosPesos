@@ -59,7 +59,7 @@ static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 /** Fake height value used in CCoins to signify they are only in the memory pool (since 0.8) */
 static const unsigned int MEMPOOL_HEIGHT = 0x7FFFFFFF;
 /** No amount larger than this (in satoshi) is valid */
-static const int64 MAX_MONEY = 2000000000 * COIN;
+static const int64 MAX_MONEY = 100000 * COIN;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 static const int64 MIN_TX_FEE = CENT;
 static const int64 MIN_RELAY_TX_FEE = CENT;
@@ -68,7 +68,7 @@ static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
 static const int COINBASE_MATURITY_PPC = 500;
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
-static const int STAKE_TARGET_SPACING = 10 * 60; // 10-minute block spacing 
+static const int STAKE_TARGET_SPACING = 1 * 60; // 1-minute block spacing 
 static const int STAKE_MIN_AGE = 60 * 60 * 24 * 30; // minimum age for coin age
 static const int STAKE_MAX_AGE = 60 * 60 * 24 * 90; // stake age of full weight
 /** Maximum number of script-checking threads allowed */
