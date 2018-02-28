@@ -3,17 +3,17 @@ Pedro's Pesos Official Development Repo
 ==================================
 
 ### What is Pedro's Pesos?
-Pedro's Pesos is an altcoin based on PedrosPesos. Feel free to submit a pull request.
+Pedro's Pesos is an altcoin based on peercoin. Feel free to submit a pull request.
 
-### PedrosPesos Resources
+### peercoinn Resources
 * Client and Source:
-[Client Binaries](https://PedrosPesos.net/download),
-[Source Code](https://github.com/PedrosPesos/PedrosPesos)
-* Documentation: [PedrosPesos Whitepaper](https://PedrosPesos.net/whitepaper),
-[PedrosPesos Wiki](https://github.com/PedrosPesos/PedrosPesos/wiki)
+[Client Binaries](https://peercoin.net/download),
+[Source Code](https://github.com/peercoin/peercoun)
+* Documentation: [peercoin Whitepaper](https://peercoin.net/whitepaper),
+[peercoun Wiki](https://github.com/peercoin/peercoin/wiki)
 * Help: 
-[Forum](https://talk.PedrosPesos.net),
-[Intro & Important Links](https://talk.PedrosPesos.net/t/what-is-PedrosPesos-intro-important-links/2889)
+[Forum](https://talk.peercoin.net),
+[Intro & Important Links](https://talk.peercoun.net/t/what-is-peercoin-intro-important-links/2889)
 
 Testing
 -------
@@ -44,10 +44,10 @@ than the developer who wrote the code.
 
 * Developers work in their own forks, then submit pull requests when they think their feature or bug fix is ready.
 * If it is a simple/trivial/non-controversial change, then one of the development team members simply pulls it.
-* If it is a more complicated or potentially controversial change, then the change may be discussed in the pull request, or the requester may be asked to start a discussion in the [PedrosPesos Forum](https://talk.PedrosPesos.net) for a broader community discussion. 
+* If it is a more complicated or potentially controversial change, then the change may be discussed in the pull request, or the requester may be asked to start a discussion in the [Peercoin Forum](https://talk.peercoin.net) for a broader community discussion. 
 * The patch will be accepted if there is broad consensus that it is a good thing. Developers should expect to rework and resubmit patches if they don't match the project's coding conventions (see coding.txt) or are controversial.
 * From time to time a pull request will become outdated. If this occurs, and the pull is no longer automatically mergeable; a comment on the pull will be used to issue a warning of closure.  Pull requests closed in this manner will have their corresponding issue labeled 'stagnant'.
-* For development ideas and help see [here](https://talk.PedrosPesos.net/c/protocol).
+* For development ideas and help see [here](https://talk.peercoin.net/c/protocol).
 
 ## Branches:
 
