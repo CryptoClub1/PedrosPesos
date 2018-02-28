@@ -2,8 +2,15 @@
 Pedro's Pesos Official Development Repo
 ==================================
 
+<<<<<<< HEAD
 ### What is Pedro's Pesos?
 Pedro's Pesos is an altcoin based on peercoin. Feel free to submit a pull request.
+=======
+[![Build Status](https://travis-ci.org/peercoin/peercoin.svg?branch=master)](https://travis-ci.org/peercoin/peercoin)
+
+### What is Peercoin?
+[Peercoin](https://peercoin.net) (abbreviated PPC), also known as PPCoin and Peer-to-Peer Coin is the first [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) design introducing [proof-of-stake consensus](https://peercoin.net/assets/paper/peercoin-paper.pdf) as a security model, with a combined [proof-of-stake](https://peercoin.net/assets/paper/peercoin-paper.pdf)/[proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system) minting system. Peercoin is based on [Bitcoin](https://bitcoin.org), while introducing many important innovations to cryptocurrency field including new security model, energy efficiency, better minting model and more adaptive response to rapid change in network computation power.
+>>>>>>> upstream/master
 
 ### peercoinn Resources
 * Client and Source:

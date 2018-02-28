@@ -4,6 +4,7 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
+<<<<<<< HEAD
         <source>About PedrosPesos</source>
         <translation>За Биткоин</translation>
     </message>
@@ -11,6 +12,15 @@
         <location line="+39"/>
         <source>&lt;b&gt;PedrosPesos&lt;/b&gt; version</source>
         <translation>&lt;b&gt;Биткоин&lt;/b&gt; версия</translation>
+=======
+        <source>About Peercoin</source>
+        <translation>За Пиркойн</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>&lt;b&gt;Peercoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Пиркойн&lt;/b&gt; версия</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+57"/>
@@ -67,8 +77,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
+<<<<<<< HEAD
         <source>These are your PedrosPesos addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Това са вашите Биткоин адреси за получаване на плащания. За по-лесно проследяване на плащанията и повишена анонимност можете да използвате нов адрес за всяко плащане.</translation>
+=======
+        <source>These are your Peercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Това са вашите Пиркойн адреси за получаване на плащания. За по-лесно проследяване на плащанията и повишена анонимност можете да използвате нов адрес за всяко плащане.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -107,8 +122,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
+<<<<<<< HEAD
         <source>Verify a message to ensure it was signed with a specified PedrosPesos address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+=======
+        <source>Verify a message to ensure it was signed with a specified Peercoin address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Пиркойн адрес</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -374,8 +394,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
+<<<<<<< HEAD
         <source>Show information about PedrosPesos</source>
         <translation>Показва информация за Биткоин</translation>
+=======
+        <source>Show information about Peercoin</source>
+        <translation>Показва информация за Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+2"/>
@@ -419,8 +444,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
+<<<<<<< HEAD
         <source>Send coins to a PedrosPesos address</source>
         <translation>Изпращане към Биткоин адрес</translation>
+=======
+        <source>Send coins to a Peercoin address</source>
+        <translation>Изпращане към Пиркойн адрес</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+49"/>
@@ -455,8 +485,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
+<<<<<<< HEAD
         <source>PedrosPesos</source>
         <translation>Биткоин</translation>
+=======
+        <source>Peercoin</source>
+        <translation>Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +515,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
+<<<<<<< HEAD
         <source>&amp;About PedrosPesos</source>
         <translation>&amp;За Биткоин</translation>
+=======
+        <source>&amp;About Peercoin</source>
+        <translation>&amp;За Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+9"/>
@@ -541,8 +581,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message numerus="yes">
         <location line="+141"/>
+<<<<<<< HEAD
         <source>%n active connection(s) to PedrosPesos network</source>
         <translation><numerusform>%n връзка към Биткоин мрежата</numerusform><numerusform>%n връзки към Биткоин мрежата</numerusform></translation>
+=======
+        <source>%n active connection(s) to Peercoin network</source>
+        <translation><numerusform>%n връзка към Пиркойн мрежата</numerusform><numerusform>%n връзки към Пиркойн мрежата</numerusform></translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+22"/>
@@ -733,8 +778,13 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is not a valid PedrosPesos address.</source>
         <translation>&quot;%1&quot; не е валиден Биткоин адрес.</translation>
+=======
+        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
+        <translation>&quot;%1&quot; не е валиден Пиркойн адрес.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+10"/>
@@ -825,8 +875,18 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>&amp;Start PedrosPesos on system login</source>
         <translation>&amp;Пускане на Биткоин при вход в системата</translation>
+=======
+        <source>&amp;Start Peercoin on system login</source>
+        <translation>&amp;Пускане на Пиркойн при вход в системата</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enforce checkpoints</source>
+        <translation type="unfinished"></translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+35"/>
@@ -930,8 +990,13 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting PedrosPesos.</source>
         <translation>Промяната на езика ще влезе в сила след рестартиране на Биткоин.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Peercoin.</source>
+        <translation>Промяната на езика ще влезе в сила след рестартиране на Пиркойн.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+11"/>
@@ -1449,8 +1514,13 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
+<<<<<<< HEAD
         <source>Enter a PedrosPesos address</source>
         <translation>Въведете Биткоин адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+=======
+        <source>Enter a Peercoin address</source>
+        <translation>Въведете Пиркойн адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -1550,8 +1620,13 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified PedrosPesos address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Пиркойн адрес</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -1566,8 +1641,13 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter a PedrosPesos address</source>
         <translation>Въведете Биткоин адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+=======
+        <source>Enter a Peercoin address</source>
+        <translation>Въведете Пиркойн адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="-2"/>
@@ -1576,8 +1656,13 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter PedrosPesos signature</source>
         <translation>Биткоин подпис</translation>
+=======
+        <source>Enter Peercoin signature</source>
+        <translation>Пиркойн подпис</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+82"/>
@@ -2188,8 +2273,13 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
+<<<<<<< HEAD
         <source>PedrosPesos version</source>
         <translation>Биткоин версия</translation>
+=======
+        <source>Peercoin version</source>
+        <translation>Пиркойн версия</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+102"/>

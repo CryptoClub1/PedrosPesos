@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Copyright (c) 2012-2017 The PedrosPesos developers
+=======
+// Copyright (c) 2012-2018 The Peercoin developers
+>>>>>>> upstream/master
 // Distributed under conditional MIT/X11 open source software license
 // see the accompanying file COPYING
 #ifndef PPOIN_CHECKPOINTSYNC_H

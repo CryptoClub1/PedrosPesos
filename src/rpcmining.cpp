@@ -1,6 +1,10 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2011-2017 The PedrosPesos developers
+=======
+// Copyright (c) 2011-2018 The Peercoin developers
+>>>>>>> upstream/master
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -22,6 +26,7 @@ Value getgenerate(const Array& params, bool fHelp)
 }
 
 
+#ifdef ENABLE_MINING
 Value setgenerate(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
@@ -59,6 +64,7 @@ Value gethashespersec(const Array& params, bool fHelp)
         return (boost::int64_t)0;
     return (boost::int64_t)dHashesPerSec;
 }
+#endif // ENABLE_MINING
 
 
 // PPoin: get network Gh/s estimate
@@ -106,7 +112,9 @@ Value getmininginfo(const Array& params, bool fHelp)
     obj.push_back(Pair("errors",        GetWarnings("statusbar")));
     obj.push_back(Pair("generate",      GetBoolArg("-gen")));
     obj.push_back(Pair("genproclimit",  (int)GetArg("-genproclimit", -1)));
+#ifdef ENABLE_MINING
     obj.push_back(Pair("hashespersec",  gethashespersec(params, false)));
+#endif // ENABLE_MINING
     obj.push_back(Pair("networkghps",   getnetworkghps(params, false)));
     obj.push_back(Pair("pooledtx",      (uint64_t)mempool.size()));
     obj.push_back(Pair("testnet",       fTestNet));
@@ -114,6 +122,7 @@ Value getmininginfo(const Array& params, bool fHelp)
 }
 
 
+#ifdef ENABLE_MINING
 Value getwork(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 1)
@@ -375,6 +384,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
 
     return result;
 }
+#endif // ENABLE_MINING
 
 Value submitblock(const Array& params, bool fHelp)
 {

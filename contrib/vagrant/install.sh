@@ -1,11 +1,7 @@
 #!/bin/bash -ev
 
-sudo apt-get update -qq
-sudo apt-get upgrade -y -qq
-sudo apt-get install -y -qq autoconf build-essential pkg-config libssl-dev libboost-all-dev libdb++-dev
-sudo apt-get install -y -qq miniupnpc libminiupnpc-dev
-
 sudo apt-get install -y -qq htop
+<<<<<<< HEAD
 sudo timedatectl set-ntp on
 
 sudo apt-get -y install build-essential libqt4-dev qt5-qmake cmake qttools5-dev libqt5webkit5-dev qttools5-dev-tools qt5-default python-sphinx texlive-latex-base inotify-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev openssl libssl-dev libdb++-dev libminiupnpc-dev git sqlite3 libsqlite3-dev g++ libpng-dev
@@ -32,13 +28,15 @@ make -f makefile.unix -j$(nproc)
 #./install_db4.sh `pwd`
 #popd
 
+=======
+sudo timedatectl set-ntp no
+sudo apt-get -y -qq install ntp
+sudo ntpq -p
+>>>>>>> upstream/master
 
-#./autogen.sh
-#export BDB_PREFIX='/vagrant/contrib/db4'
-#./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
+./scripts/peercoinconf.sh
 
-#./configure --with-incompatible-bdb
-#make -j 8
+./scripts/dependencies-ubuntu.sh
 
-popd
+./scripts/install-ubuntu.sh
 

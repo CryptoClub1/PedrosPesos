@@ -1,6 +1,10 @@
 /*
  * W.J. van der Laan 2011-2012
+<<<<<<< HEAD
  * The PedrosPesos developers 2013-2017
+=======
+ * The Peercoin developers 2013-2018
+>>>>>>> upstream/master
  */
 
 #include <QApplication>

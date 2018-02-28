@@ -1,5 +1,9 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2011-2017 The PedrosPesos developers
+=======
+// Copyright (c) 2011-2018 The Peercoin developers
+>>>>>>> upstream/master
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_CHECKPOINT_H

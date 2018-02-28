@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 PedrosPesos 0.6.0 BETA
 
 Copyright (c) 2011-2017 PedrosPesos Developers
+=======
+Peercoin 0.6.2 BETA
+
+Copyright (c) 2011-2018 Peercoin Developers
+>>>>>>> upstream/master
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -87,7 +93,7 @@ with each other, with the help of a P2P network to check for double-spending.
 Setup
 ---------------------
 You need the Qt4 run-time libraries to run Bitcoin-Qt. On Debian or Ubuntu:
-	`sudo apt-get install libqtgui4`
+	`sudo apt-get install libqtgui4 libqt4-network`
 
 Unpack the files into a directory and run:
 

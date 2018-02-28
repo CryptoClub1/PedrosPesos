@@ -5,9 +5,15 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
+<<<<<<< HEAD
 !define VERSION 0.6.0
 !define COMPANY "PedrosPesos project"
 !define URL http://github.com/PedrosPesos/PedrosPesos/
+=======
+!define VERSION 0.6.2
+!define COMPANY "Peercoin project"
+!define URL http://github.com/peercoin/peercoin/
+>>>>>>> upstream/master
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/PedrosPesos.ico"
@@ -45,14 +51,24 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
+<<<<<<< HEAD
 OutFile PedrosPesos-${VERSION}-setup.exe
 InstallDir $PROGRAMFILES\PedrosPesos
+=======
+OutFile peercoin-win-setup.exe
+InstallDir $PROGRAMFILES\Peercoin
+>>>>>>> upstream/master
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
+<<<<<<< HEAD
 VIProductVersion 0.6.0.0
 VIAddVersionKey ProductName PedrosPesos
+=======
+VIProductVersion 0.6.2.0
+VIAddVersionKey ProductName Peercoin
+>>>>>>> upstream/master
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"

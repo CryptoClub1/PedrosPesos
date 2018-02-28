@@ -5,12 +5,17 @@ file COPYING or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](http://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
 
+<<<<<<< HEAD
 UNIX BUILD NOTES FOR PedrosPesos-QT
+=======
+UNIX BUILD NOTES FOR PEERCOIN
+>>>>>>> upstream/master
 ====================
 
-To Build in Terminal on Debian based Linux
+To build in Terminal on Debian based Linux
 ---------------------
 
+<<<<<<< HEAD
 	sudo apt-get -y install build-essential libqt4-dev qt5-qmake cmake qttools5-dev libqt5webkit5-dev qttools5-dev-tools qt5-default python-sphinx texlive-latex-base inotify-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev openssl libssl-dev libdb++-dev libminiupnpc-dev git sqlite3 libsqlite3-dev g++ libpng-dev	
 	sudo apt-get -y update && sudo apt-get -y upgrade
 	mkdir -p ~/.PedrosPesos
@@ -38,6 +43,12 @@ To Build in Terminal on Debian based Linux
 	git checkout v0.6.1PP
 	cd src
 	make -f makefile.unix -j4
+=======
+	git clone https://github.com/peercoin/peercoin
+	cd peercoin
+	git checkout v0.6.2ppc
+	./contrib/vagrant/install.sh
+>>>>>>> upstream/master
 
 
 UNIX BUILD NOTES FOR BITCOIN

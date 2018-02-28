@@ -1,6 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin Core developers
+<<<<<<< HEAD
 // Copyright (c) 2011-2015 The PedrosPesos developers
+=======
+// Copyright (c) 2011-2018 The Peercoin developers
+>>>>>>> upstream/master
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1823,7 +1827,9 @@ void StartNode(boost::thread_group& threadGroup)
 bool StopNode()
 {
     printf("StopNode()\n");
+#ifdef ENABLE_MINING
     GenerateBitcoins(false, NULL);
+#endif // ENABLE_MINING
     MapPort(false);
     nTransactionsUpdated++;
     if (semOutbound)

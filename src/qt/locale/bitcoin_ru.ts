@@ -4,6 +4,7 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
+<<<<<<< HEAD
         <source>About PedrosPesos</source>
         <translation>&amp;О PedrosPesos</translation>
     </message>
@@ -11,6 +12,15 @@
         <location line="+39"/>
         <source>&lt;b&gt;PedrosPesos&lt;/b&gt; version</source>
         <translation>&lt;b&gt;PedrosPesos&lt;/b&gt; версия</translation>
+=======
+        <source>About Peercoin</source>
+        <translation>&amp;О Пиркойн</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>&lt;b&gt;Peercoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Пиркойн&lt;/b&gt; версия</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +44,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
+<<<<<<< HEAD
         <source>The PedrosPesos developers</source>
         <translation>Разработчики PedrosPesos</translation>
+=======
+        <source>The Peercoin developers</source>
+        <translation>Разработчики Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -82,8 +97,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
+<<<<<<< HEAD
         <source>Sign a message to prove you own a PedrosPesos address</source>
         <translation>Подписать сообщение, чтобы доказать владение адресом PedrosPesos</translation>
+=======
+        <source>Sign a message to prove you own a Peercoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +127,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
+<<<<<<< HEAD
         <source>Verify a message to ensure it was signed with a specified PedrosPesos address</source>
         <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом PedrosPesos</translation>
+=======
+        <source>Verify a message to ensure it was signed with a specified Peercoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -248,8 +273,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PedrosPesosS&lt;/b&gt;!</source>
         <translation>Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ МОНЕТЫ&lt;/b&gt;!</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +305,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
+<<<<<<< HEAD
         <source>PedrosPesos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PedrosPesoss from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+=======
+        <source>Peercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +409,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
+<<<<<<< HEAD
         <source>Show information about PedrosPesos</source>
         <translation>Показать информацию о PedrosPesos&apos;е</translation>
+=======
+        <source>Show information about Peercoin</source>
+        <translation>Показать информацию о Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+2"/>
@@ -419,6 +459,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
+<<<<<<< HEAD
         <source>Send coins to a PedrosPesos address</source>
         <translation>Отправить монеты на указанный адрес PedrosPesos</translation>
     </message>
@@ -426,6 +467,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+49"/>
         <source>Modify configuration options for PedrosPesos</source>
         <translation>Изменить параметры конфигурации PedrosPesos</translation>
+=======
+        <source>Send coins to a Peercoin address</source>
+        <translation>Отправить монеты на указанный адрес Пиркойн</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Modify configuration options for Peercoin</source>
+        <translation>Изменить параметры конфигурации Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +505,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
+<<<<<<< HEAD
         <source>PedrosPesos</source>
         <translation>Биткоин</translation>
+=======
+        <source>Peercoin</source>
+        <translation>Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +535,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
+<<<<<<< HEAD
         <source>&amp;About PedrosPesos</source>
         <translation>&amp;О PedrosPesos</translation>
+=======
+        <source>&amp;About Peercoin</source>
+        <translation>&amp;О Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+9"/>
@@ -500,6 +560,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Sign messages with your PedrosPesos addresses to prove you own them</source>
         <translation>Подписать сообщения вашим адресом PedrosPesos, чтобы доказать, что вы им владеете</translation>
     </message>
@@ -507,6 +568,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified PedrosPesos addresses</source>
         <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом PedrosPesos</translation>
+=======
+        <source>Sign messages with your Peercoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом Пиркойн, чтобы доказать, что вы им владеете</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Verify messages to ensure they were signed with specified Peercoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+28"/>
@@ -536,8 +606,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
+<<<<<<< HEAD
         <source>PedrosPesos client</source>
         <translation>PedrosPesos клиент</translation>
+=======
+        <source>Peercoin client</source>
+        <translation>Пиркойн клиент</translation>
+>>>>>>> upstream/master
     </message>
     <message numerus="yes">
         <location line="+141"/>
@@ -656,8 +731,13 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
+<<<<<<< HEAD
         <source>URI can not be parsed! This can be caused by an invalid PedrosPesos address or malformed URI parameters.</source>
         <translation>Не удалось обработать URI! Это может быть связано с неверным адресом PedrosPesos или неправильными параметрами URI.</translation>
+=======
+        <source>URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Пиркойн или неправильными параметрами URI.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +751,13 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
+<<<<<<< HEAD
         <source>A fatal error occurred. PedrosPesos can no longer continue safely and will quit.</source>
         <translation>Произошла неисправимая ошибка. PedrosPesos не может безопасно продолжать работу и будет закрыт.</translation>
+=======
+        <source>A fatal error occurred. Peercoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Пиркойн не может безопасно продолжать работу и будет закрыт.</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -737,8 +822,13 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is not a valid PedrosPesos address.</source>
         <translation>Введённый адрес &quot;%1&quot; не является правильным PedrosPesos-адресом.</translation>
+=======
+        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Пиркойн-адресом.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+10"/>
@@ -819,8 +909,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
+<<<<<<< HEAD
         <source>Automatically start PedrosPesos after logging in to the system.</source>
         <translation>Автоматически запускать PedrosPesos после входа в систему</translation>
+=======
+        <source>Automatically start Peercoin after logging in to the system.</source>
+        <translation>Автоматически запускать Пиркойн после входа в систему</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+46"/>
@@ -829,8 +924,18 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>&amp;Start PedrosPesos on system login</source>
         <translation>&amp;Запускать PedrosPesos при входе в систему</translation>
+=======
+        <source>&amp;Start Peercoin on system login</source>
+        <translation>&amp;Запускать Пиркойн при входе в систему</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enforce checkpoints</source>
+        <translation type="unfinished"></translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+35"/>
@@ -849,8 +954,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
+<<<<<<< HEAD
         <source>Automatically open the PedrosPesos client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматически открыть порт для PedrosPesos-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+=======
+        <source>Automatically open the Peercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Пиркойн-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -859,8 +969,13 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Connect to the PedrosPesos network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Подключаться к сети PedrosPesos через прокси SOCKS (например, при подключении через Tor).</translation>
+=======
+        <source>Connect to the Peercoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети Пиркойн через прокси SOCKS (например, при подключении через Tor).</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -934,8 +1049,13 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting PedrosPesos.</source>
         <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска PedrosPesos.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Peercoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Пиркойн.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+11"/>
@@ -949,8 +1069,13 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
+<<<<<<< HEAD
         <source>Whether to show PedrosPesos addresses in the transaction list or not.</source>
         <translation>Показывать ли адреса PedrosPesos в списке транзакций.</translation>
+=======
+        <source>Whether to show Peercoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса Пиркойн в списке транзакций.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -1001,8 +1126,13 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
+<<<<<<< HEAD
         <source>This setting will take effect after restarting PedrosPesos.</source>
         <translation>Эта настройка вступит в силу после перезапуска PedrosPesos</translation>
+=======
+        <source>This setting will take effect after restarting Peercoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+29"/>
@@ -1020,8 +1150,13 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PedrosPesos network after a connection is established, but this process has not completed yet.</source>
         <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью PedrosPesos после подключения, но этот процесс пока не завершён.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Peercoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Пиркойн после подключения, но этот процесс пока не завершён.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="-124"/>
@@ -1074,8 +1209,13 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
+<<<<<<< HEAD
         <source>Cannot start PedrosPesos: click-to-pay handler</source>
         <translation>Не удаётся запустить PedrosPesos: обработчик click-to-pay</translation>
+=======
+        <source>Cannot start peercoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить Пиркойн: обработчик click-to-pay</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -1244,6 +1384,7 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
+<<<<<<< HEAD
         <source>PedrosPesos - Debug window</source>
         <translation>PedrosPesos - Окно отладки</translation>
     </message>
@@ -1251,6 +1392,15 @@ Address: %4
         <location line="+25"/>
         <source>PedrosPesos Core</source>
         <translation>Ядро PedrosPesos</translation>
+=======
+        <source>Peercoin - Debug window</source>
+        <translation>Пиркойн - Окно отладки</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Peercoin Core</source>
+        <translation>Ядро Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+279"/>
@@ -1259,8 +1409,13 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Open the PedrosPesos debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Открыть отладочный лог-файл PedrosPesos из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+=======
+        <source>Open the Peercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Пиркойн из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+102"/>
@@ -1269,8 +1424,13 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
+<<<<<<< HEAD
         <source>Welcome to the PedrosPesos RPC console.</source>
         <translation>Добро пожаловать в RPC-консоль PedrosPesos.</translation>
+=======
+        <source>Welcome to the Peercoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Пиркойн.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+1"/>
@@ -1453,8 +1613,13 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
+<<<<<<< HEAD
         <source>Enter a PedrosPesos address</source>
         <translation>Введите PedrosPesos-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+=======
+        <source>Enter a Peercoin address</source>
+        <translation>Введите Пиркойн-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -1518,8 +1683,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this PedrosPesos address</source>
         <translation>Подписать сообщение, чтобы доказать владение адресом PedrosPesos</translation>
+=======
+        <source>Sign the message to prove you own this Peercoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -1554,8 +1724,13 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified PedrosPesos address</source>
         <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом PedrosPesos</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -1570,8 +1745,13 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter a PedrosPesos address</source>
         <translation>Введите адрес PedrosPesos (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+=======
+        <source>Enter a Peercoin address</source>
+        <translation>Введите адрес Пиркойн (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="-2"/>
@@ -1580,8 +1760,13 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Enter PedrosPesos signature</source>
         <translation>Введите подпись PedrosPesos</translation>
+=======
+        <source>Enter Peercoin signature</source>
+        <translation>Введите подпись Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+82"/>
@@ -1654,8 +1839,13 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
+<<<<<<< HEAD
         <source>The PedrosPesos developers</source>
         <translation>Разработчики PedrosPesos</translation>
+=======
+        <source>The Peercoin developers</source>
+        <translation>Разработчики Пиркойн</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+1"/>
@@ -2338,8 +2528,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Cannot obtain a lock on data directory %s. PedrosPesos is probably already running.</source>
         <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, PedrosPesos уже работает.</translation>
+=======
+        <source>Cannot obtain a lock on data directory %s. Peercoin is probably already running.</source>
+        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, Пиркойн уже работает.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -2383,8 +2578,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PedrosPesos will not work properly.</source>
         <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, PedrosPesos будет работать некорректно.</translation>
+=======
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Peercoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Пиркойн будет работать некорректно.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+3"/>
@@ -2824,6 +3024,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Error loading wallet.dat: Wallet requires newer version of PedrosPesos</source>
         <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию PedrosPesos</translation>
     </message>
@@ -2831,6 +3032,15 @@ rpcpassword=%s
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart PedrosPesos to complete</source>
         <translation>Необходимо перезаписать бумажник, перезапустите PedrosPesos для завершения операции.</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Peercoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Пиркойн</translation>
+    </message>
+    <message>
+        <location line="+93"/>
+        <source>Wallet needed to be rewritten: restart Peercoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Пиркойн для завершения операции.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="-95"/>
@@ -2889,8 +3099,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-25"/>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. PedrosPesos is probably already running.</source>
         <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, PedrosPesos уже работает.</translation>
+=======
+        <source>Unable to bind to %s on this computer. Peercoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Пиркойн уже работает.</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <location line="+64"/>

@@ -1,6 +1,10 @@
 PedrosPesos 0.6.1 BETA
 
+<<<<<<< HEAD
 Copyright (c) 2011-2017 PedrosPesos Developers
+=======
+Copyright (c) 2011-2018 Peercoin Developers
+>>>>>>> upstream/master
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
